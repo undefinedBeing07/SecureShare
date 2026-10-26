@@ -2,9 +2,12 @@ import nodemailer from 'nodemailer';
 import { config } from '../config.js';
 
 /**
- * Check if SMTP credentials are fully configured in the environment
+ * Check if email service is configured (Resend HTTPS API, Brevo HTTPS API, or SMTP)
  */
 export function isEmailConfigured() {
+  if (process.env.RESEND_API_KEY || process.env.BREVO_API_KEY) {
+    return true;
+  }
   return Boolean(
     config.smtp.host &&
     config.smtp.user &&
@@ -16,8 +19,11 @@ export function isEmailConfigured() {
  * Return names of missing environment variables
  */
 export function getMissingSmtpVariables() {
+  if (process.env.RESEND_API_KEY || process.env.BREVO_API_KEY) {
+    return [];
+  }
   const missing = [];
-  if (!config.smtp.host) missing.push('SMTP_HOST');
+  if (!config.smtp.host) missing.push('SMTP_HOST (or RESEND_API_KEY)');
   if (!config.smtp.user) missing.push('SMTP_USER');
   if (!config.smtp.pass) missing.push('SMTP_PASS');
   return missing;
@@ -34,6 +40,9 @@ function getTransporter() {
       pool: true, // Reuse SMTP connection pool for fast sub-second delivery
       maxConnections: 5,
       maxMessages: 100,
+      connectionTimeout: 8000,
+      greetingTimeout: 8000,
+      socketTimeout: 10000,
       auth: {
         user: config.smtp.user,
         pass: config.smtp.pass,
@@ -56,8 +65,6 @@ export async function sendOtpEmail(toEmail, otp) {
     error.code = 'EMAIL_NOT_CONFIGURED';
     throw error;
   }
-
-  const transporter = getTransporter();
 
   const mailOptions = {
     from: config.smtp.from || 'Secure Share <no-reply@secureshare.io>',
@@ -200,6 +207,92 @@ export async function sendOtpEmail(toEmail, otp) {
 </html>`,
   };
 
-  const info = await transporter.sendMail(mailOptions);
-  return info;
+  // Option 1: Send via Resend HTTPS API (bypasses Render SMTP port block)
+  if (process.env.RESEND_API_KEY) {
+    const rawFrom = process.env.EMAIL_FROM || 'Secure Share <onboarding@resend.dev>';
+    const from = rawFrom.includes('onboarding@resend.dev') || !rawFrom.includes('@')
+      ? 'Secure Share <onboarding@resend.dev>'
+      : rawFrom;
+
+    try {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${process.env.RESEND_API_KEY.trim()}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          from,
+          to: [toEmail],
+          subject: mailOptions.subject,
+          html: mailOptions.html,
+          text: mailOptions.text
+        })
+      });
+
+      if (!res.ok) {
+        const errJson = await res.json().catch(() => ({}));
+        throw new Error(`Resend email failed (${res.status}): ${errJson.message || res.statusText}`);
+      }
+
+      const resData = await res.json();
+      console.log(`[Email] OTP successfully sent to ${toEmail} via Resend HTTPS API (id: ${resData.id})`);
+      return resData;
+    } catch (err) {
+      console.error('[Email Error] Resend HTTPS delivery error:', err);
+      throw err;
+    }
+  }
+
+  // Option 2: Send via Brevo HTTPS API (bypasses Render SMTP port block)
+  if (process.env.BREVO_API_KEY) {
+    const senderEmail = config.smtp.user || 'shauryaraghuvanshi04@gmail.com';
+    try {
+      const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+        method: 'POST',
+        headers: {
+          'api-key': process.env.BREVO_API_KEY.trim(),
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          sender: { name: 'Secure Share', email: senderEmail },
+          to: [{ email: toEmail }],
+          subject: mailOptions.subject,
+          htmlContent: mailOptions.html,
+          textContent: mailOptions.text
+        })
+      });
+
+      if (!res.ok) {
+        const errJson = await res.json().catch(() => ({}));
+        throw new Error(`Brevo email failed (${res.status}): ${errJson.message || res.statusText}`);
+      }
+
+      const resData = await res.json();
+      console.log(`[Email] OTP successfully sent to ${toEmail} via Brevo HTTPS API`);
+      return resData;
+    } catch (err) {
+      console.error('[Email Error] Brevo HTTPS delivery error:', err);
+      throw err;
+    }
+  }
+
+  // Option 3: Standard Nodemailer SMTP (works on local dev & paid cloud tiers)
+  const transporter = getTransporter();
+  try {
+    const info = await transporter.sendMail(mailOptions);
+    console.log(`[Email] OTP successfully sent to ${toEmail} via SMTP`);
+    return info;
+  } catch (err) {
+    const isTimeout = err.code === 'ETIMEDOUT' || err.code === 'ESOCKET' || err.message?.includes('timeout') || err.message?.includes('Greeting never received');
+    if (isTimeout) {
+      const helpfulError = new Error(
+        'Email delivery timed out. On Render\'s Free tier, outbound SMTP ports (465/587) are blocked by Render\'s firewall. Please add RESEND_API_KEY in Render\'s Environment tab to send over HTTPS without restrictions.'
+      );
+      helpfulError.statusCode = 503;
+      helpfulError.code = 'RENDER_SMTP_BLOCKED';
+      throw helpfulError;
+    }
+    throw err;
+  }
 }
