@@ -14,11 +14,46 @@ import path from 'path';
 
 const app = express();
 
-// Middlewares
+// Configurable CORS origins for production and local development
+const configuredOrigins = [];
+if (process.env.CLIENT_URL) {
+  configuredOrigins.push(process.env.CLIENT_URL.trim().replace(/\/+$/, ''));
+}
+if (process.env.FRONTEND_URL) {
+  configuredOrigins.push(process.env.FRONTEND_URL.trim().replace(/\/+$/, ''));
+}
+
+const localOrigins = [
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+  'http://localhost:5000',
+  'http://127.0.0.1:5000'
+];
+
 app.use(cors({
-  origin: '*',
+  origin: (origin, callback) => {
+    // Allow non-browser requests (e.g. mobile apps, curl, server-to-server)
+    if (!origin) return callback(null, true);
+
+    const isLocal = localOrigins.includes(origin);
+    const isConfigured = configuredOrigins.includes(origin);
+    const isVercel = /^https:\/\/.*\.vercel\.app$/.test(origin);
+    const isDev = process.env.NODE_ENV !== 'production';
+
+    if (isConfigured || isVercel || (isDev && isLocal)) {
+      return callback(null, true);
+    }
+
+    if (!process.env.CLIENT_URL && !process.env.FRONTEND_URL && isLocal) {
+      return callback(null, true);
+    }
+
+    console.warn(`[CORS] Blocked request from origin: ${origin}`);
+    return callback(new Error(`CORS blocked for origin: ${origin}`));
+  },
+  credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
 
 app.use(express.json());
@@ -28,6 +63,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use((req, res, next) => {
   console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
   next();
+});
+
+// Lightweight health check endpoint for cloud service monitors (Render)
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
 });
 
 // API Routes
@@ -178,15 +218,36 @@ if (existingFiles.length === 0) {
 // Global error handler
 app.use((err, req, res, next) => {
   console.error('[Server Error]', err);
-  res.status(500).json({ error: 'Internal Server Error', message: err.message });
+  const isProd = process.env.NODE_ENV === 'production';
+  res.status(err.status || 500).json({
+    error: 'Internal Server Error',
+    message: isProd ? 'An unexpected server error occurred' : err.message
+  });
 });
 
 // Start Express server
-const PORT = config.port;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || config.port || 5000;
+const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`=======================================================`);
   console.log(` SecureShare Enterprise Server - Express API `);
-  console.log(` Running on: http://localhost:${PORT}`);
-  console.log(` Health: http://localhost:${PORT}/api/health`);
+  console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(` Running on: http://0.0.0.0:${PORT}`);
+  console.log(` Health: http://0.0.0.0:${PORT}/api/health`);
   console.log(`=======================================================`);
+});
+
+// Graceful shutdown handling for container platforms like Render
+process.on('SIGTERM', () => {
+  console.log('[Server] SIGTERM received. Gracefully closing HTTP server...');
+  server.close(() => {
+    console.log('[Server] HTTP server closed cleanly.');
+    process.exit(0);
+  });
+});
+
+process.on('SIGINT', () => {
+  console.log('[Server] SIGINT received. Shutting down...');
+  server.close(() => {
+    process.exit(0);
+  });
 });

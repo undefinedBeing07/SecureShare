@@ -10,7 +10,10 @@ import {
   DocumentSummary
 } from './types';
 
-const API_BASE = '/api';
+const rawApiUrl = (process.env.NEXT_PUBLIC_API_URL || '').trim().replace(/\/+$/, '');
+export const API_BASE = rawApiUrl
+  ? (rawApiUrl.endsWith('/api') ? rawApiUrl : `${rawApiUrl}/api`)
+  : '/api';
 
 /**
  * Safely parse response text as JSON without throwing on empty bodies or HTML error pages

@@ -12,7 +12,7 @@ import {
   Bug
 } from 'lucide-react';
 import { FileItem } from '../lib/types';
-import { formatBytes, formatDate } from '../lib/api';
+import { formatBytes, formatDate, API_BASE } from '../lib/api';
 
 interface UploadZoneProps {
   onUploadSuccess: (file: FileItem) => void;
@@ -438,7 +438,7 @@ export function UploadZone({ onUploadSuccess, token, forwardedRef }: UploadZoneP
         activeXhrRef.current = null;
         setGeneralError({
           title: 'Network Connection Failed',
-          message: 'Unable to connect to the backend server. Please verify that the Express backend is running on http://localhost:5000.'
+          message: 'Unable to connect to the backend server. Please verify that the backend API is online and reachable.'
         });
       };
 
@@ -454,7 +454,7 @@ export function UploadZone({ onUploadSuccess, token, forwardedRef }: UploadZoneP
 
       // Open request and set auth header.
       // NOTE: Do NOT set Content-Type header manually; browser sets boundary for multipart/form-data.
-      xhr.open('POST', '/api/files/upload', true);
+      xhr.open('POST', `${API_BASE}/files/upload`, true);
       xhr.setRequestHeader('Authorization', `Bearer ${token || 'usr_demo_01'}`);
       xhr.send(formData);
 
