@@ -1,0 +1,2658 @@
+{
+  "users": [
+    {
+      "userId": "usr_demo_01",
+      "email": "admin@secureshare.io",
+      "displayName": "Alex Chen",
+      "passwordHash": "admin123",
+      "role": "admin",
+      "createdAt": "2026-10-09T05:43:51.602Z"
+    },
+    {
+      "userId": "usr_demo_02",
+      "email": "audit@secureshare.io",
+      "displayName": "Enterprise Auditor",
+      "passwordHash": "audit123",
+      "role": "auditor",
+      "createdAt": "2026-10-09T05:43:51.604Z"
+    },
+    {
+      "userId": "usr_mvjr27i4bmra",
+      "email": "demo_student@university.edu",
+      "displayName": "Jordan Lee",
+      "passwordHash": "pass123",
+      "role": "user",
+      "createdAt": "2026-10-22T16:22:52.540Z"
+    },
+    {
+      "userId": "usr_mvks5h70w46c",
+      "email": "abc@gmail.com",
+      "displayName": "Upasana",
+      "passwordHash": "1234",
+      "role": "user",
+      "createdAt": "2026-10-23T09:41:10.860Z"
+    },
+    {
+      "userId": "usr_mvkuhf0bhezk",
+      "email": "cde@gmail.com",
+      "displayName": "shaurya",
+      "passwordHash": "4567",
+      "role": "user",
+      "createdAt": "2026-10-23T10:46:27.131Z"
+    },
+    {
+      "userId": "usr_mvkuqaugsqf7",
+      "email": "shauryaraghuvanshi04@gmail.com",
+      "displayName": "Shaurya Raghuvanshi",
+      "passwordHash": "1234",
+      "role": "user",
+      "createdAt": "2026-10-23T10:53:21.640Z"
+    },
+    {
+      "userId": "usr_mvng1hipbmq9",
+      "email": "test_user_a_1792909527747@example.com",
+      "displayName": "User Alpha",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:25:27.793Z"
+    },
+    {
+      "userId": "usr_mvng1hj4bpxn",
+      "email": "test_user_b_1792909527805@example.com",
+      "displayName": "User Beta",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:25:27.808Z"
+    },
+    {
+      "userId": "usr_mvng2acpb5r4",
+      "email": "test_user_a_1792909565149@example.com",
+      "displayName": "User Alpha",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:26:05.161Z"
+    },
+    {
+      "userId": "usr_mvng2acxq1sb",
+      "email": "test_user_b_1792909565164@example.com",
+      "displayName": "User Beta",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:26:05.169Z"
+    },
+    {
+      "userId": "usr_mvng3yk20pf2",
+      "email": "test_user_a_1792909643149@example.com",
+      "displayName": "User Alpha",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:27:23.186Z"
+    },
+    {
+      "userId": "usr_mvng3ykgljma",
+      "email": "test_user_b_1792909643192@example.com",
+      "displayName": "User Beta",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:27:23.200Z"
+    },
+    {
+      "userId": "usr_mvng4lurk78l",
+      "email": "test_user_a_1792909673367@example.com",
+      "displayName": "User Alpha",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:27:53.379Z"
+    },
+    {
+      "userId": "usr_mvng4lv2v66m",
+      "email": "test_user_b_1792909673387@example.com",
+      "displayName": "User Beta",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T06:27:53.390Z"
+    },
+    {
+      "userId": "usr_mvng4z6dvknh",
+      "email": "formats_1792909690520@test.com",
+      "displayName": "Formats Tester",
+      "passwordHash": "pw",
+      "role": "user",
+      "createdAt": "2026-10-25T06:28:10.645Z"
+    },
+    {
+      "userId": "usr_mvnl4xnoafny",
+      "email": "advance_tester_1792918086503@example.com",
+      "displayName": "Advanced Evaluator",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T08:48:06.756Z"
+    },
+    {
+      "userId": "usr_mvnl5rdc726y",
+      "email": "advance_tester_1792918125120@example.com",
+      "displayName": "Advanced Evaluator",
+      "passwordHash": "password123",
+      "role": "user",
+      "createdAt": "2026-10-25T08:48:45.264Z"
+    },
+    {
+      "userId": "usr_mvnlr0va33kh",
+      "email": "dup_test_1792919117202@example.com",
+      "displayName": "Duplicate Evaluator",
+      "passwordHash": "pw",
+      "role": "user",
+      "createdAt": "2026-10-25T09:05:17.350Z"
+    },
+    {
+      "userId": "usr_mvoqyxqjryxt",
+      "email": "vansh@gmail.com",
+      "displayName": "Vansh",
+      "passwordHash": "4050",
+      "role": "user",
+      "createdAt": "2026-10-26T04:19:10.795Z"
+    },
+    {
+      "userId": "usr_mvoravw6rcxu",
+      "email": "aryan@gmail.com",
+      "displayName": "aryan",
+      "passwordHash": "1234",
+      "role": "user",
+      "createdAt": "2026-10-26T04:28:28.278Z"
+    },
+    {
+      "userId": "usr_mvordikshsd9",
+      "email": "xyz@gmail.com",
+      "displayName": "abc",
+      "passwordHash": "2345",
+      "role": "user",
+      "createdAt": "2026-10-26T04:30:30.988Z"
+    },
+    {
+      "userId": "usr_mvorqug2tiov",
+      "email": "atlas_test@example.com",
+      "displayName": "Atlas Realtime Test",
+      "passwordHash": "atlaspass123",
+      "role": "user",
+      "createdAt": "2026-10-26T04:40:52.898Z"
+    },
+    {
+      "userId": "usr_mvorul1xpwgl",
+      "email": "rohan@gmail.com",
+      "displayName": "rohan",
+      "passwordHash": "1234",
+      "role": "user",
+      "createdAt": "2026-10-26T04:43:47.349Z"
+    },
+    {
+      "userId": "usr_mvot1duqlnid",
+      "email": "shauryap427@gmail.com",
+      "displayName": "Shaurya Pratap Singh",
+      "passwordHash": "1234",
+      "role": "user",
+      "createdAt": "2026-10-26T05:17:04.226Z"
+    },
+    {
+      "userId": "usr_mvp9bnz1lmtb",
+      "email": "mrawat24680@gmail.com",
+      "displayName": "Mayank Rawat",
+      "passwordHash": "4050",
+      "role": "user",
+      "createdAt": "2026-10-26T12:52:57.757Z"
+    }
+  ],
+  "files": [
+    {
+      "fileId": "file_69d846b5821f45e4",
+      "ownerId": "usr_mvoqyxqjryxt",
+      "ownerName": "Vansh",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_69d846b5821f45e4.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-26T04:24:51.974Z"
+      },
+      "uploadedAt": "2026-10-26T04:24:51.980Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_8adb9b465d8c4abf",
+      "ownerId": "usr_mvnlr0va33kh",
+      "ownerName": "Duplicate Evaluator",
+      "fileName": "duplicate_report.txt",
+      "fileType": "text/plain",
+      "fileSize": 39,
+      "storageKey": "uploads/file_8adb9b465d8c4abf.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "68c813be11a10b937979d33aabd38299d8b716347ca1b538bf3c3ae2cf10e471",
+        "md5": "916a948a0e52c23a71581b16942900f7",
+        "entropy": 4.475,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T09:05:17.433Z"
+      },
+      "uploadedAt": "2026-10-25T09:05:17.435Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_b128385b6a2044f5",
+      "ownerId": "usr_mvnlr0va33kh",
+      "ownerName": "Duplicate Evaluator",
+      "fileName": "original_report.txt",
+      "fileType": "text/plain",
+      "fileSize": 39,
+      "storageKey": "uploads/file_b128385b6a2044f5.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "68c813be11a10b937979d33aabd38299d8b716347ca1b538bf3c3ae2cf10e471",
+        "md5": "916a948a0e52c23a71581b16942900f7",
+        "entropy": 4.475,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T09:05:17.394Z"
+      },
+      "uploadedAt": "2026-10-25T09:05:17.398Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_621f27eca10c4ae0",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_621f27eca10c4ae0.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T09:00:03.778Z"
+      },
+      "uploadedAt": "2026-10-25T09:00:03.782Z",
+      "isDeleted": true,
+      "deletedAt": "2026-10-25T09:00:23.353Z"
+    },
+    {
+      "fileId": "file_e330a21bf3fe4290",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "ownerName": "Shaurya Raghuvanshi",
+      "fileName": "ChatGPT Image Aug 31, 2026, 09_36_55 PM.png",
+      "fileType": "image/png",
+      "fileSize": 1329301,
+      "storageKey": "uploads/file_e330a21bf3fe4290.png",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "7507c55504fe2a5b88232d461c7ea552ce6bd941983c37a89000fcc855507dba",
+        "md5": "698180fc67eb723296ba2931e3f78a4c",
+        "entropy": 5.541,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T08:56:20.318Z"
+      },
+      "uploadedAt": "2026-10-25T08:56:20.324Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_7d11d4382fb94eea",
+      "ownerId": "usr_mvnl5rdc726y",
+      "ownerName": "Advanced Evaluator",
+      "fileName": "vault_strategy_doc.md",
+      "fileType": "text/markdown",
+      "fileSize": 371,
+      "storageKey": "uploads/file_7d11d4382fb94eea.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "f46a2330821a78f49fc54a2762415b988cdeeda3478032fce26932bb927f561c",
+        "md5": "9482c00da5a4b78e71ec44d16141fbae",
+        "entropy": 4.791,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T08:48:45.362Z"
+      },
+      "uploadedAt": "2026-10-25T08:48:45.364Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_49399024979c4443",
+      "ownerId": "usr_mvnl5rdc726y",
+      "ownerName": "Advanced Evaluator",
+      "fileName": "vault_strategy_doc.md",
+      "fileType": "text/markdown",
+      "fileSize": 371,
+      "storageKey": "uploads/file_49399024979c4443.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "f46a2330821a78f49fc54a2762415b988cdeeda3478032fce26932bb927f561c",
+        "md5": "9482c00da5a4b78e71ec44d16141fbae",
+        "entropy": 4.791,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T08:48:45.345Z"
+      },
+      "uploadedAt": "2026-10-25T08:48:45.349Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_fde0180666334ab9",
+      "ownerId": "usr_mvng4z6dvknh",
+      "ownerName": "Formats Tester",
+      "fileName": "report.docx",
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 13,
+      "storageKey": "uploads/file_fde0180666334ab9.docx",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "140ca57bfda5461fa3166f37226119922833bb5e782ca705c01fa2c3739f9bee",
+        "md5": "2fc9a1c65735f420ecfb38b33b85d1e0",
+        "entropy": 3.393,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:28:10.762Z"
+      },
+      "uploadedAt": "2026-10-25T06:28:10.765Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_8b331ff0cada4c80",
+      "ownerId": "usr_mvng4z6dvknh",
+      "ownerName": "Formats Tester",
+      "fileName": "data.json",
+      "fileType": "application/json",
+      "fileSize": 42,
+      "storageKey": "uploads/file_8b331ff0cada4c80.json",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "87bf67198c20af22bb5f67aae5a40507ed36f0aa855c30b210d4da80d3cfadbf",
+        "md5": "dd6c7e0edd47cd34162605e8be41d659",
+        "entropy": 3.767,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:28:10.735Z"
+      },
+      "uploadedAt": "2026-10-25T06:28:10.737Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_b5bda6880c6346cb",
+      "ownerId": "usr_mvng4z6dvknh",
+      "ownerName": "Formats Tester",
+      "fileName": "image.png",
+      "fileType": "image/png",
+      "fileSize": 17,
+      "storageKey": "uploads/file_b5bda6880c6346cb.png",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "14463a37223c31053d306ff9a17d58d7c3fc742e0b2d4e82b235af44f742256f",
+        "md5": "72daa9958ccb58e94176644e8070e25c",
+        "entropy": 3.572,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:28:10.704Z"
+      },
+      "uploadedAt": "2026-10-25T06:28:10.706Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_7d300a002a234fb4",
+      "ownerId": "usr_mvng4z6dvknh",
+      "ownerName": "Formats Tester",
+      "fileName": "document.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 19,
+      "storageKey": "uploads/file_7d300a002a234fb4.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "29440e4fe5387a165aa385434904b7d209ab5e9b5e2ee2f381b093986b11c6ba",
+        "md5": "4b60d3ce4e75b6034776040d76b38b54",
+        "entropy": 3.195,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:28:10.674Z"
+      },
+      "uploadedAt": "2026-10-25T06:28:10.675Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_a249d4686dcd44cd",
+      "ownerId": "usr_mvng3yk20pf2",
+      "ownerName": "User Alpha",
+      "fileName": "strategy_view_only.md",
+      "fileType": "text/markdown",
+      "fileSize": 91,
+      "storageKey": "uploads/file_a249d4686dcd44cd.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "e2368ac1472cb42ed2fa7aada063aff8f2e0a5fcb927e03821d8f9442707ec85",
+        "md5": "44bd3855447b339b6b6ccca764188140",
+        "entropy": 4.517,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:27:23.228Z"
+      },
+      "uploadedAt": "2026-10-25T06:27:23.233Z",
+      "isDeleted": true,
+      "deletedAt": "2026-10-25T06:27:23.271Z"
+    },
+    {
+      "fileId": "file_d3cd3f2bac1b49bb",
+      "ownerId": "usr_mvng2acpb5r4",
+      "ownerName": "User Alpha",
+      "fileName": "strategy_view_only.md",
+      "fileType": "text/markdown",
+      "fileSize": 91,
+      "storageKey": "uploads/file_d3cd3f2bac1b49bb.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "e2368ac1472cb42ed2fa7aada063aff8f2e0a5fcb927e03821d8f9442707ec85",
+        "md5": "44bd3855447b339b6b6ccca764188140",
+        "entropy": 4.517,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:26:05.186Z"
+      },
+      "uploadedAt": "2026-10-25T06:26:05.188Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_0f019954c1354726",
+      "ownerId": "usr_mvng1hipbmq9",
+      "ownerName": "User Alpha",
+      "fileName": "strategy_view_only.md",
+      "fileType": "text/markdown",
+      "fileSize": 91,
+      "storageKey": "uploads/file_0f019954c1354726.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "e2368ac1472cb42ed2fa7aada063aff8f2e0a5fcb927e03821d8f9442707ec85",
+        "md5": "44bd3855447b339b6b6ccca764188140",
+        "entropy": 4.517,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T06:25:27.836Z"
+      },
+      "uploadedAt": "2026-10-25T06:25:27.840Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "ownerName": "Shaurya Raghuvanshi",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_b28c62000aea40da.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-25T05:31:38.559Z"
+      },
+      "uploadedAt": "2026-10-25T05:31:38.562Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "ownerName": "shaurya",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_9e7c6d28ec5c4a22.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-23T10:46:35.557Z"
+      },
+      "uploadedAt": "2026-10-23T10:46:35.562Z"
+    },
+    {
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "ownerName": "Upasana",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_7535f2efa5a543d7.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-23T09:41:28.838Z"
+      },
+      "uploadedAt": "2026-10-23T09:41:28.842Z"
+    },
+    {
+      "fileId": "file_2bea8d7b0906418a",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "github-recovery-codes.txt",
+      "fileType": "text/plain",
+      "fileSize": 206,
+      "storageKey": "uploads/file_2bea8d7b0906418a.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "634cc863954e9ff09743e38601975f334775319f9feaf5958fdda046ffcb399e",
+        "md5": "a68a1a1aa44cce1c8f25242f2c318866",
+        "entropy": 4.187,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-23T05:29:52.195Z"
+      },
+      "uploadedAt": "2026-10-23T05:29:52.198Z",
+      "isDeleted": true,
+      "deletedAt": "2026-10-25T06:01:09.318Z"
+    },
+    {
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "admitcardsem3.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 119495,
+      "storageKey": "uploads/file_c0b25043cfe048df.pdf",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "789ef27f7300cea797d4f45d4dfe8260568a288d2cd118feacb915cb9dd9a6a5",
+        "md5": "b8ae83ff2d98e22f8b6de222bbaa8c04",
+        "entropy": 7.882,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-22T17:29:53.549Z"
+      },
+      "uploadedAt": "2026-10-22T17:29:53.554Z",
+      "isDeleted": false,
+      "deletedAt": null
+    },
+    {
+      "fileId": "file_7d32fa63636949f5",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "Safe_Specification_3677.md",
+      "fileType": "text/markdown",
+      "fileSize": 343,
+      "storageKey": "uploads/file_7d32fa63636949f5.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "fc6192371893d403de88aacb105663f67d6a0ad66b26ec63c3aeba2315cc9c68",
+        "md5": "c8d80b0114fbd8b44330a896eeeff665",
+        "entropy": 4.732,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-22T16:16:03.910Z"
+      },
+      "uploadedAt": "2026-10-22T16:16:03.915Z"
+    },
+    {
+      "fileId": "file_a170fe08c1694205",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "harmless_sample.txt",
+      "fileType": "text/plain",
+      "fileSize": 62,
+      "storageKey": "uploads/file_a170fe08c1694205.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "56c19f27f1b517dea36aa128ee18cfebdfc18367ad27fdd78a231924fd77d6a3",
+        "md5": "681222436b19970f80ab8ed2ba747bea",
+        "entropy": 4.315,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-22T16:12:53.818Z"
+      },
+      "uploadedAt": "2026-10-22T16:12:53.821Z"
+    },
+    {
+      "fileId": "file_31daeb71fd924960",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "test_proxy_upload.txt",
+      "fileType": "text/plain",
+      "fileSize": 41,
+      "storageKey": "uploads/file_31daeb71fd924960.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "74ded9753aa5855923747ceb87febffd15e287788617a5e0ff364c71f48732e6",
+        "md5": "ef074981926c33714962492907bc4678",
+        "entropy": 4.54,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-22T16:02:31.141Z"
+      },
+      "uploadedAt": "2026-10-22T16:02:31.143Z"
+    },
+    {
+      "fileId": "file_ba7a71a25fd64afd",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "test_upload_sample.txt",
+      "fileType": "text/plain",
+      "fileSize": 34,
+      "storageKey": "uploads/file_ba7a71a25fd64afd.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "1e97048c7dd1b4208cf98b3550ea1e2a73877c6504aded599c030a511a69de97",
+        "md5": "d3886a612e97eceaa80eb89b068c5808",
+        "entropy": 4.113,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-22T16:01:26.805Z"
+      },
+      "uploadedAt": "2026-10-22T16:01:26.809Z"
+    },
+    {
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "Screenshot (2).png",
+      "fileType": "image/png",
+      "fileSize": 256097,
+      "storageKey": "uploads/file_8abdc912b3454b4d.png",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "a73e49a344eb2d062a458cb4d1ac9fbdb631e3d117ff55c98e9919873a75b892",
+        "md5": "a4cbfa72fdbc6b9141d459317d02f703",
+        "entropy": 7.714,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-09T09:56:38.822Z"
+      },
+      "uploadedAt": "2026-10-09T09:56:38.827Z"
+    },
+    {
+      "fileId": "file_17f69de2003e4924",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "Enterprise_Specifications_8796.md",
+      "fileType": "text/markdown",
+      "fileSize": 468,
+      "storageKey": "uploads/file_17f69de2003e4924.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+        "scanDurationMs": 180,
+        "sha256": "f4418e61e383075ab56cb860183f4aebb767341ceabdce4559881bf8c7baf555",
+        "md5": "a3bfe0a9363a58bbbc55c53ad30008ec",
+        "entropy": 4.937,
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-09T09:56:29.235Z"
+      },
+      "uploadedAt": "2026-10-09T09:56:29.237Z",
+      "isDeleted": true,
+      "deletedAt": "2026-10-25T09:24:08.412Z"
+    },
+    {
+      "fileId": "sample_doc_02",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "System_Architecture_Slides.txt",
+      "fileType": "text/plain",
+      "fileSize": 182,
+      "storageKey": "uploads/sample_doc_02.txt",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4",
+        "scanDurationMs": 180,
+        "sha256": "9f83a2182c0b4356b71fba2981030e460a87612dc579122c4f51e0321a4f0777",
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-09T05:57:10.694Z"
+      },
+      "uploadedAt": "2026-10-09T03:57:10.694Z"
+    },
+    {
+      "fileId": "sample_doc_01",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "Mini_Project_Report.md",
+      "fileType": "text/markdown",
+      "fileSize": 231,
+      "storageKey": "uploads/sample_doc_01.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4",
+        "scanDurationMs": 145,
+        "sha256": "a38f92182c0b4356b71fba2981030e460a87612dc579122c4f51e0321a4f0891",
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-09T05:57:10.692Z"
+      },
+      "uploadedAt": "2026-10-09T04:57:10.692Z"
+    },
+    {
+      "fileId": "file_welcome_01",
+      "ownerId": "usr_demo_01",
+      "ownerName": "Alex Chen",
+      "fileName": "Welcome_Project_Overview.md",
+      "fileType": "text/markdown",
+      "fileSize": 323,
+      "storageKey": "uploads/file_welcome_01.md",
+      "storageProvider": "Cloudflare R2 (Simulated Storage)",
+      "scanStatus": "CLEAN",
+      "scanDetails": {
+        "engine": "Sentinel Virus Scan API v2.4",
+        "scanDurationMs": 120,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "quarantineAction": "APPROVED_FOR_STORAGE",
+        "scannedAt": "2026-10-09T05:43:53.297Z"
+      },
+      "uploadedAt": "2026-10-09T05:43:53.297Z"
+    }
+  ],
+  "shares": [
+    {
+      "shareId": "shr_0718e40c417742b3",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "a772c3beacb9",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-26T04:33:27.589Z",
+      "expiresAt": "2026-10-27T04:33:27.589Z",
+      "isRevoked": true,
+      "burnedAt": "2026-10-26T04:33:34.111Z",
+      "revokedReason": "Burned after one-time document preview",
+      "accessLogs": [
+        {
+          "id": "acc_1792989214083_iosn",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-26T04:33:34.083Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_d236489e1fae4ee5",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "b800f38b3728",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-26T04:33:16.099Z",
+      "expiresAt": "2026-10-27T04:33:16.098Z",
+      "isRevoked": false,
+      "burnedAt": null,
+      "revokedReason": null
+    },
+    {
+      "shareId": "shr_df5252d1c18847a7",
+      "fileId": "file_69d846b5821f45e4",
+      "ownerId": "usr_mvoqyxqjryxt",
+      "shareToken": "9901f61b0118",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": false,
+      "downloadsCount": 1,
+      "createdAt": "2026-10-26T04:25:14.298Z",
+      "expiresAt": "2026-10-27T04:25:14.297Z",
+      "isRevoked": false,
+      "burnedAt": null,
+      "revokedReason": null,
+      "accessLogs": [
+        {
+          "id": "acc_1792988752676_3xem",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "download",
+          "timestamp": "2026-10-26T04:25:52.676Z"
+        },
+        {
+          "id": "acc_1792988746483_l90r",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-26T04:25:46.483Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_4c19daebdb794d90",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "16ccc03b4b6a",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-26T04:14:52.649Z",
+      "expiresAt": "2026-10-27T04:14:52.646Z",
+      "isRevoked": false,
+      "burnedAt": null,
+      "revokedReason": null,
+      "accessLogs": [
+        {
+          "id": "acc_1792988099926_laal",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-26T04:14:59.926Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_53d70bcebb9d4788",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "shareToken": "ac53c6ebe992",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T09:43:33.655Z",
+      "expiresAt": "2026-10-26T09:43:33.655Z",
+      "isRevoked": true,
+      "burnedAt": "2026-10-25T09:43:55.868Z",
+      "revokedReason": "Burned after one-time document preview",
+      "accessLogs": [
+        {
+          "id": "acc_1792921435853_0i7l",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-25T09:43:55.853Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_5e8a2b3abaa247d0",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "5d46dc1e9685",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": true,
+      "downloadsCount": 1,
+      "createdAt": "2026-10-25T09:36:58.189Z",
+      "expiresAt": "2026-10-26T09:36:58.189Z",
+      "isRevoked": true,
+      "burnedAt": "2026-10-25T09:36:58.202Z",
+      "revokedReason": "Burned after one-time file download",
+      "accessLogs": [
+        {
+          "id": "acc_1792921018195_at59",
+          "ip": "::1",
+          "userAgent": "node",
+          "browser": "Browser",
+          "os": "Unknown OS",
+          "accessType": "download",
+          "timestamp": "2026-10-25T09:36:58.195Z"
+        }
+      ]
+    },
+    {
+      "shareId": "shr_999c5194febf4fc7",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "7be65bf59d89",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "isBurnAfterReading": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T09:36:57.944Z",
+      "expiresAt": "2026-10-26T09:36:57.944Z",
+      "isRevoked": true,
+      "burnedAt": "2026-10-25T09:36:57.968Z",
+      "revokedReason": "Burned after one-time document preview",
+      "accessLogs": [
+        {
+          "id": "acc_1792921017958_6o4i",
+          "ip": "::1",
+          "userAgent": "node",
+          "browser": "Browser",
+          "os": "Unknown OS",
+          "accessType": "view",
+          "timestamp": "2026-10-25T09:36:57.958Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_8b9802d869e44da9",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "017c8eed3522",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T09:07:30.904Z",
+      "expiresAt": "2026-10-26T09:07:30.904Z",
+      "accessLogs": [
+        {
+          "id": "acc_1792919257996_tipq",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-25T09:07:37.996Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_edc05832499d4e5a",
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "shareToken": "7fbc6e00df82",
+      "accessType": "view",
+      "password": "1234",
+      "hasPassword": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T08:54:44.851Z",
+      "expiresAt": "2026-10-26T08:54:44.850Z",
+      "accessLogs": [
+        {
+          "id": "acc_1792918501457_om4e",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-25T08:55:01.457Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_a440b4110e4c4285",
+      "fileId": "file_49399024979c4443",
+      "ownerId": "usr_mvnl5rdc726y",
+      "shareToken": "0cff8bb99eab",
+      "accessType": "view",
+      "password": "secret_pass_2026",
+      "hasPassword": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T08:48:45.382Z",
+      "expiresAt": "2026-10-26T08:48:45.381Z",
+      "accessLogs": [
+        {
+          "id": "acc_1792918125401_4gm0",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0",
+          "browser": "Chrome",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-25T08:48:45.401Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_ac99d193b5ca4f35",
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "shareToken": "b54a936eff2a",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T08:02:34.108Z",
+      "expiresAt": "2026-10-26T08:02:34.107Z",
+      "accessLogs": [
+        {
+          "id": "acc_1792918467545_hovl",
+          "ip": "::1",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+          "browser": "Edge",
+          "os": "Windows",
+          "accessType": "view",
+          "timestamp": "2026-10-25T08:54:27.545Z"
+        }
+      ],
+      "viewsCount": 1
+    },
+    {
+      "shareId": "shr_d78abc71c57a4c5d",
+      "fileId": "file_fde0180666334ab9",
+      "ownerId": "usr_mvng4z6dvknh",
+      "shareToken": "69d3f557b901",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:28:10.770Z",
+      "expiresAt": "2026-10-26T06:28:10.770Z"
+    },
+    {
+      "shareId": "shr_6fe680007bd84881",
+      "fileId": "file_8b331ff0cada4c80",
+      "ownerId": "usr_mvng4z6dvknh",
+      "shareToken": "958747c6f824",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:28:10.744Z",
+      "expiresAt": "2026-10-26T06:28:10.744Z"
+    },
+    {
+      "shareId": "shr_9c2cb1f019644e71",
+      "fileId": "file_b5bda6880c6346cb",
+      "ownerId": "usr_mvng4z6dvknh",
+      "shareToken": "d9e95d7c730d",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:28:10.717Z",
+      "expiresAt": "2026-10-26T06:28:10.717Z"
+    },
+    {
+      "shareId": "shr_2fdda78ef8be495c",
+      "fileId": "file_7d300a002a234fb4",
+      "ownerId": "usr_mvng4z6dvknh",
+      "shareToken": "f6a86038bf61",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:28:10.684Z",
+      "expiresAt": "2026-10-26T06:28:10.684Z"
+    },
+    {
+      "shareId": "shr_b6663710a2a44cc1",
+      "fileId": "file_d3cd3f2bac1b49bb",
+      "ownerId": "usr_mvng2acpb5r4",
+      "shareToken": "b3a59783671f",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:26:05.201Z",
+      "expiresAt": "2026-10-26T06:26:05.201Z"
+    },
+    {
+      "shareId": "shr_fe395e0201db4b5f",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "shareToken": "f7067ebd6e2e",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-25T06:02:23.573Z",
+      "expiresAt": "2026-10-26T06:02:23.565Z"
+    },
+    {
+      "shareId": "shr_14704578832e4286",
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "shareToken": "8bb07c453fcc",
+      "accessType": "download",
+      "password": "1234",
+      "hasPassword": true,
+      "downloadsCount": 1,
+      "createdAt": "2026-10-23T10:48:36.288Z",
+      "expiresAt": "2026-10-24T10:48:36.287Z"
+    },
+    {
+      "shareId": "shr_a7393500fdfb483d",
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "shareToken": "88f658ba4189",
+      "accessType": "view",
+      "password": "1234",
+      "hasPassword": true,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-23T10:48:11.490Z",
+      "expiresAt": "2026-10-24T10:48:11.490Z"
+    },
+    {
+      "shareId": "shr_8a71ff11a0194905",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "shareToken": "21fb6ce8ed26",
+      "accessType": "view",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-23T09:44:05.316Z",
+      "expiresAt": "2026-10-24T09:44:05.316Z"
+    },
+    {
+      "shareId": "shr_fbf039cf642c42e8",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "shareToken": "306c172b5b34",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-23T09:43:43.613Z",
+      "expiresAt": "2026-10-24T09:43:43.613Z"
+    },
+    {
+      "shareId": "shr_132e48851d714215",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "shareToken": "22f2cbc86213",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-23T09:42:09.422Z",
+      "expiresAt": "2026-10-24T09:42:09.421Z"
+    },
+    {
+      "shareId": "shr_a887cccfdd80431d",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "shareToken": "6f9385fa8102",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-09T09:57:55.715Z",
+      "expiresAt": "2026-10-10T09:57:55.715Z"
+    },
+    {
+      "shareId": "shr_aa8b7d8f5e674b25",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "shareToken": "388d8c57981e",
+      "accessType": "download",
+      "password": null,
+      "hasPassword": false,
+      "downloadsCount": 0,
+      "createdAt": "2026-10-09T09:57:50.062Z",
+      "expiresAt": "2026-10-10T09:57:50.062Z"
+    },
+    {
+      "shareId": "shr_sample_01",
+      "fileId": "sample_doc_01",
+      "ownerId": "usr_demo_01",
+      "shareToken": "demo-shared-doc",
+      "accessType": "download",
+      "downloadsCount": 4,
+      "createdAt": "2026-10-09T05:57:10.697Z",
+      "expiresAt": "2026-10-12T05:57:10.697Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1793019177762_za9t",
+      "timestamp": "2026-10-26T12:52:57.762Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvp9bnz1lmtb",
+      "status": "SUCCESS",
+      "fileName": "Registered: Mayank Rawat (mrawat24680@gmail.com)"
+    },
+    {
+      "id": "log_1792991824309_b8af",
+      "timestamp": "2026-10-26T05:17:04.309Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvot1duqlnid",
+      "status": "SUCCESS",
+      "fileName": "Registered: Shaurya Pratap Singh (shauryap427@gmail.com)"
+    },
+    {
+      "id": "log_1792990958613_hheq",
+      "timestamp": "2026-10-26T05:02:38.613Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_demo_01",
+      "status": "SUCCESS",
+      "fileName": "Login: Alex Chen (admin@secureshare.io)"
+    },
+    {
+      "id": "log_1792990958562_szjw",
+      "timestamp": "2026-10-26T05:02:38.562Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvositvkhkp0",
+      "status": "SUCCESS",
+      "fileName": "Registered: Racer 1 (concurrent.racer.1792990958523@university.edu)"
+    },
+    {
+      "id": "log_1792990958468_vmwy",
+      "timestamp": "2026-10-26T05:02:38.468Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvositsm32hm",
+      "status": "SUCCESS",
+      "fileName": "Registered: Alice Student (alice.student.1792990958413@university.edu)"
+    },
+    {
+      "id": "log_1792990923699_mzc4",
+      "timestamp": "2026-10-26T05:02:03.699Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "SUCCESS",
+      "fileName": "Login: Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com)"
+    },
+    {
+      "id": "log_1792989827355_2m9h",
+      "timestamp": "2026-10-26T04:43:47.355Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvorul1xpwgl",
+      "status": "SUCCESS",
+      "fileName": "Registered: rohan (rohan@gmail.com)"
+    },
+    {
+      "id": "log_1792989652901_3gse",
+      "timestamp": "2026-10-26T04:40:52.901Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvorqug2tiov",
+      "status": "SUCCESS",
+      "fileName": "Registered: Atlas Realtime Test (atlas_test@example.com)"
+    },
+    {
+      "id": "log_1792989214125_ro17",
+      "timestamp": "2026-10-26T04:33:34.125Z",
+      "action": "SHARE_BURNED",
+      "shareId": "shr_0718e40c417742b3",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "status": "SELF_DESTRUCTED",
+      "details": "Burned after one-time document preview"
+    },
+    {
+      "id": "log_1792989207592_30k8",
+      "timestamp": "2026-10-26T04:33:27.592Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_0718e40c417742b3",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "view",
+      "isBurnAfterReading": true
+    },
+    {
+      "id": "log_1792989196107_p4i9",
+      "timestamp": "2026-10-26T04:33:16.107Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_d236489e1fae4ee5",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "download",
+      "isBurnAfterReading": true
+    },
+    {
+      "id": "log_1792989030992_u2jo",
+      "timestamp": "2026-10-26T04:30:30.992Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvordikshsd9",
+      "status": "SUCCESS",
+      "fileName": "Registered: abc (xyz@gmail.com)"
+    },
+    {
+      "id": "log_1792988908280_327r",
+      "timestamp": "2026-10-26T04:28:28.280Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvoravw6rcxu",
+      "status": "SUCCESS",
+      "fileName": "Registered: aryan (aryan@gmail.com)"
+    },
+    {
+      "id": "log_1792988714301_kcqm",
+      "timestamp": "2026-10-26T04:25:14.301Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_df5252d1c18847a7",
+      "fileId": "file_69d846b5821f45e4",
+      "ownerId": "usr_mvoqyxqjryxt",
+      "accessType": "download",
+      "isBurnAfterReading": false
+    },
+    {
+      "id": "log_1792988691983_l66b",
+      "timestamp": "2026-10-26T04:24:51.983Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_69d846b5821f45e4",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvoqyxqjryxt",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792988350800_unr1",
+      "timestamp": "2026-10-26T04:19:10.800Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvoqyxqjryxt",
+      "status": "SUCCESS",
+      "fileName": "Registered: Vansh (vansh@gmail.com)"
+    },
+    {
+      "id": "log_1792988092653_rhov",
+      "timestamp": "2026-10-26T04:14:52.653Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_4c19daebdb794d90",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "download",
+      "isBurnAfterReading": false
+    },
+    {
+      "id": "log_1792922835735_ol9z",
+      "timestamp": "2026-10-25T10:07:15.735Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_demo_01",
+      "status": "SUCCESS",
+      "fileName": "Login: Alex Chen (admin@secureshare.io)"
+    },
+    {
+      "id": "log_1792921435870_nzhr",
+      "timestamp": "2026-10-25T09:43:55.870Z",
+      "action": "SHARE_BURNED",
+      "shareId": "shr_53d70bcebb9d4788",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "status": "SELF_DESTRUCTED",
+      "details": "Burned after one-time document preview"
+    },
+    {
+      "id": "log_1792921413661_t9aq",
+      "timestamp": "2026-10-25T09:43:33.661Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_53d70bcebb9d4788",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "accessType": "view",
+      "isBurnAfterReading": true
+    },
+    {
+      "id": "log_1792921018205_2peb",
+      "timestamp": "2026-10-25T09:36:58.205Z",
+      "action": "SHARE_BURNED",
+      "shareId": "shr_5e8a2b3abaa247d0",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "status": "SELF_DESTRUCTED",
+      "details": "Burned after one-time file download"
+    },
+    {
+      "id": "log_1792921018190_11u6",
+      "timestamp": "2026-10-25T09:36:58.190Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_5e8a2b3abaa247d0",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "download",
+      "isBurnAfterReading": true
+    },
+    {
+      "id": "log_1792921017969_jsau",
+      "timestamp": "2026-10-25T09:36:57.969Z",
+      "action": "SHARE_BURNED",
+      "shareId": "shr_999c5194febf4fc7",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "status": "SELF_DESTRUCTED",
+      "details": "Burned after one-time document preview"
+    },
+    {
+      "id": "log_1792921017946_ygfz",
+      "timestamp": "2026-10-25T09:36:57.946Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_999c5194febf4fc7",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "view",
+      "isBurnAfterReading": true
+    },
+    {
+      "id": "log_1792920248414_t1kj",
+      "timestamp": "2026-10-25T09:24:08.414Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_17f69de2003e4924",
+      "fileName": "Enterprise_Specifications_8796.md",
+      "ownerId": "usr_demo_01",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792919250905_fglq",
+      "timestamp": "2026-10-25T09:07:30.905Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_8b9802d869e44da9",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1792919117436_ay6n",
+      "timestamp": "2026-10-25T09:05:17.436Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_8adb9b465d8c4abf",
+      "fileName": "duplicate_report.txt",
+      "ownerId": "usr_mvnlr0va33kh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792919117399_hdwb",
+      "timestamp": "2026-10-25T09:05:17.399Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_b128385b6a2044f5",
+      "fileName": "original_report.txt",
+      "ownerId": "usr_mvnlr0va33kh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792919117352_df57",
+      "timestamp": "2026-10-25T09:05:17.352Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvnlr0va33kh",
+      "status": "SUCCESS",
+      "fileName": "Registered: Duplicate Evaluator (dup_test_1792919117202@example.com)"
+    },
+    {
+      "id": "log_1792918823354_a8g5",
+      "timestamp": "2026-10-25T09:00:23.354Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_621f27eca10c4ae0",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_demo_01",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792918803783_bpuv",
+      "timestamp": "2026-10-25T09:00:03.783Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_621f27eca10c4ae0",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792918759416_hrvh",
+      "timestamp": "2026-10-25T08:59:19.416Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_mvks5h70w46c",
+      "status": "SUCCESS",
+      "fileName": "Login: Upasana (abc@gmail.com)"
+    },
+    {
+      "id": "log_1792918681046_rag0",
+      "timestamp": "2026-10-25T08:58:01.046Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "SUCCESS",
+      "fileName": "Login: Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com)"
+    },
+    {
+      "id": "log_1792918665273_d6un",
+      "timestamp": "2026-10-25T08:57:45.273Z",
+      "action": "USER_LOGIN",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "SUCCESS",
+      "fileName": "Login: Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com)"
+    },
+    {
+      "id": "log_1792918580325_opjw",
+      "timestamp": "2026-10-25T08:56:20.325Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_e330a21bf3fe4290",
+      "fileName": "ChatGPT Image Aug 31, 2026, 09_36_55 PM.png",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792918484852_0wp0",
+      "timestamp": "2026-10-25T08:54:44.852Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_edc05832499d4e5a",
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792918125382_pgul",
+      "timestamp": "2026-10-25T08:48:45.382Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_a440b4110e4c4285",
+      "fileId": "file_49399024979c4443",
+      "ownerId": "usr_mvnl5rdc726y",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792918125365_2kjc",
+      "timestamp": "2026-10-25T08:48:45.365Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_7d11d4382fb94eea",
+      "fileName": "vault_strategy_doc.md",
+      "ownerId": "usr_mvnl5rdc726y",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792918125350_i56z",
+      "timestamp": "2026-10-25T08:48:45.350Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_49399024979c4443",
+      "fileName": "vault_strategy_doc.md",
+      "ownerId": "usr_mvnl5rdc726y",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792918125265_5rbs",
+      "timestamp": "2026-10-25T08:48:45.265Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvnl5rdc726y",
+      "status": "SUCCESS",
+      "fileName": "Registered: Advanced Evaluator (advance_tester_1792918125120@example.com)"
+    },
+    {
+      "id": "log_1792918086758_jzd2",
+      "timestamp": "2026-10-25T08:48:06.758Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvnl4xnoafny",
+      "status": "SUCCESS",
+      "fileName": "Registered: Advanced Evaluator (advance_tester_1792918086503@example.com)"
+    },
+    {
+      "id": "log_1792915354109_3g5x",
+      "timestamp": "2026-10-25T08:02:34.109Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_ac99d193b5ca4f35",
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792915338978_a9e7",
+      "timestamp": "2026-10-25T08:02:18.978Z",
+      "action": "FILE_RESTORED",
+      "fileId": "file_b28c62000aea40da",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "RESTORED"
+    },
+    {
+      "id": "log_1792915333591_i4kf",
+      "timestamp": "2026-10-25T08:02:13.591Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_b28c62000aea40da",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792915307019_lgay",
+      "timestamp": "2026-10-25T08:01:47.019Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_b9a09b85573a4c6a",
+      "fileId": "file_b28c62000aea40da",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909690771_rad6",
+      "timestamp": "2026-10-25T06:28:10.771Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_d78abc71c57a4c5d",
+      "fileId": "file_fde0180666334ab9",
+      "ownerId": "usr_mvng4z6dvknh",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909690765_nils",
+      "timestamp": "2026-10-25T06:28:10.765Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_fde0180666334ab9",
+      "fileName": "report.docx",
+      "ownerId": "usr_mvng4z6dvknh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909690746_ejxl",
+      "timestamp": "2026-10-25T06:28:10.746Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_6fe680007bd84881",
+      "fileId": "file_8b331ff0cada4c80",
+      "ownerId": "usr_mvng4z6dvknh",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909690738_vn39",
+      "timestamp": "2026-10-25T06:28:10.738Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_8b331ff0cada4c80",
+      "fileName": "data.json",
+      "ownerId": "usr_mvng4z6dvknh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909690718_fg1z",
+      "timestamp": "2026-10-25T06:28:10.718Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_9c2cb1f019644e71",
+      "fileId": "file_b5bda6880c6346cb",
+      "ownerId": "usr_mvng4z6dvknh",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909690708_m6ah",
+      "timestamp": "2026-10-25T06:28:10.708Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_b5bda6880c6346cb",
+      "fileName": "image.png",
+      "ownerId": "usr_mvng4z6dvknh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909690685_n9ed",
+      "timestamp": "2026-10-25T06:28:10.685Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_2fdda78ef8be495c",
+      "fileId": "file_7d300a002a234fb4",
+      "ownerId": "usr_mvng4z6dvknh",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909690676_7rt3",
+      "timestamp": "2026-10-25T06:28:10.676Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_7d300a002a234fb4",
+      "fileName": "document.pdf",
+      "ownerId": "usr_mvng4z6dvknh",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909690646_slcd",
+      "timestamp": "2026-10-25T06:28:10.646Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng4z6dvknh",
+      "status": "SUCCESS",
+      "fileName": "Registered: Formats Tester (formats_1792909690520@test.com)"
+    },
+    {
+      "id": "log_1792909673473_90vs",
+      "timestamp": "2026-10-25T06:27:53.473Z",
+      "action": "FILE_PERMANENT_DELETE",
+      "fileId": "file_f07ea63d5e11423f",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng4lurk78l"
+    },
+    {
+      "id": "log_1792909673468_0vib",
+      "timestamp": "2026-10-25T06:27:53.468Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_f07ea63d5e11423f",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng4lurk78l",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792909673459_yrn6",
+      "timestamp": "2026-10-25T06:27:53.459Z",
+      "action": "FILE_RESTORED",
+      "fileId": "file_f07ea63d5e11423f",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng4lurk78l",
+      "status": "RESTORED"
+    },
+    {
+      "id": "log_1792909673442_oy89",
+      "timestamp": "2026-10-25T06:27:53.442Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_f07ea63d5e11423f",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng4lurk78l",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792909673421_ym1h",
+      "timestamp": "2026-10-25T06:27:53.421Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_7c44d7c9e164438d",
+      "fileId": "file_f07ea63d5e11423f",
+      "ownerId": "usr_mvng4lurk78l",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909673407_qluk",
+      "timestamp": "2026-10-25T06:27:53.407Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_f07ea63d5e11423f",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng4lurk78l",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909673392_1p55",
+      "timestamp": "2026-10-25T06:27:53.392Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng4lv2v66m",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Beta (test_user_b_1792909673387@example.com)"
+    },
+    {
+      "id": "log_1792909673381_68t4",
+      "timestamp": "2026-10-25T06:27:53.381Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng4lurk78l",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Alpha (test_user_a_1792909673367@example.com)"
+    },
+    {
+      "id": "log_1792909643272_o0lv",
+      "timestamp": "2026-10-25T06:27:23.272Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_a249d4686dcd44cd",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng3yk20pf2",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792909643250_ih6b",
+      "timestamp": "2026-10-25T06:27:23.250Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_2b5d2f6b94f144fc",
+      "fileId": "file_a249d4686dcd44cd",
+      "ownerId": "usr_mvng3yk20pf2",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909643234_46ch",
+      "timestamp": "2026-10-25T06:27:23.234Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_a249d4686dcd44cd",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng3yk20pf2",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909643201_5nvd",
+      "timestamp": "2026-10-25T06:27:23.201Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng3ykgljma",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Beta (test_user_b_1792909643192@example.com)"
+    },
+    {
+      "id": "log_1792909643187_mrot",
+      "timestamp": "2026-10-25T06:27:23.187Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng3yk20pf2",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Alpha (test_user_a_1792909643149@example.com)"
+    },
+    {
+      "id": "log_1792909565202_00t6",
+      "timestamp": "2026-10-25T06:26:05.202Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_b6663710a2a44cc1",
+      "fileId": "file_d3cd3f2bac1b49bb",
+      "ownerId": "usr_mvng2acpb5r4",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792909565189_591s",
+      "timestamp": "2026-10-25T06:26:05.189Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_d3cd3f2bac1b49bb",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng2acpb5r4",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909565170_226f",
+      "timestamp": "2026-10-25T06:26:05.170Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng2acxq1sb",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Beta (test_user_b_1792909565164@example.com)"
+    },
+    {
+      "id": "log_1792909565162_4uop",
+      "timestamp": "2026-10-25T06:26:05.162Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng2acpb5r4",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Alpha (test_user_a_1792909565149@example.com)"
+    },
+    {
+      "id": "log_1792909527841_y5yl",
+      "timestamp": "2026-10-25T06:25:27.841Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_0f019954c1354726",
+      "fileName": "strategy_view_only.md",
+      "ownerId": "usr_mvng1hipbmq9",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792909527809_nosr",
+      "timestamp": "2026-10-25T06:25:27.809Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng1hj4bpxn",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Beta (test_user_b_1792909527805@example.com)"
+    },
+    {
+      "id": "log_1792909527794_xokb",
+      "timestamp": "2026-10-25T06:25:27.794Z",
+      "action": "USER_REGISTER",
+      "ownerId": "usr_mvng1hipbmq9",
+      "status": "SUCCESS",
+      "fileName": "Registered: User Alpha (test_user_a_1792909527747@example.com)"
+    },
+    {
+      "id": "log_1792908143574_tjmi",
+      "timestamp": "2026-10-25T06:02:23.574Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_fe395e0201db4b5f",
+      "fileId": "file_c0b25043cfe048df",
+      "ownerId": "usr_demo_01",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792908143545_im5c",
+      "timestamp": "2026-10-25T06:02:23.545Z",
+      "action": "FILE_RESTORED",
+      "fileId": "file_c0b25043cfe048df",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_demo_01",
+      "status": "RESTORED"
+    },
+    {
+      "id": "log_1792908143502_12to",
+      "timestamp": "2026-10-25T06:02:23.502Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_c0b25043cfe048df",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_demo_01",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792908069319_654g",
+      "timestamp": "2026-10-25T06:01:09.319Z",
+      "action": "FILE_TRASHED",
+      "fileId": "file_2bea8d7b0906418a",
+      "fileName": "github-recovery-codes.txt",
+      "ownerId": "usr_demo_01",
+      "status": "TRASHED"
+    },
+    {
+      "id": "log_1792906686413_9qhh",
+      "timestamp": "2026-10-25T05:38:06.413Z",
+      "action": "FILE_DELETE",
+      "fileId": "file_20dd31cfc0a245a6",
+      "fileName": "Safe_Specification_2270.md",
+      "ownerId": "usr_mvkuqaugsqf7"
+    },
+    {
+      "id": "log_1792906451197_5ix5",
+      "timestamp": "2026-10-25T05:34:11.197Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_cbcede9e74844ff3",
+      "fileId": "file_20dd31cfc0a245a6",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792906352495_x7gx",
+      "timestamp": "2026-10-25T05:32:32.495Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_20dd31cfc0a245a6",
+      "fileName": "Safe_Specification_2270.md",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792906341203_fffd",
+      "timestamp": "2026-10-25T05:32:21.203Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_standard_test_0990.txt",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "3adbbc9d1b5c03286e2a3715b89520ef715caa2071043cdbced18b82f88fa4c9"
+    },
+    {
+      "id": "log_1792906298563_raec",
+      "timestamp": "2026-10-25T05:31:38.563Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_b28c62000aea40da",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvkuqaugsqf7",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792752516289_ubwb",
+      "timestamp": "2026-10-23T10:48:36.289Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_14704578832e4286",
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1792752491493_sjq5",
+      "timestamp": "2026-10-23T10:48:11.493Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_a7393500fdfb483d",
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792752400962_58zy",
+      "timestamp": "2026-10-23T10:46:40.962Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_standard_test_0749.txt",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "3adbbc9d1b5c03286e2a3715b89520ef715caa2071043cdbced18b82f88fa4c9"
+    },
+    {
+      "id": "log_1792752395565_9vtb",
+      "timestamp": "2026-10-23T10:46:35.565Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_9e7c6d28ec5c4a22",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvkuhf0bhezk",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792749737956_lher",
+      "timestamp": "2026-10-23T10:02:17.956Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_3a63e415b63e409d",
+      "fileId": "file_2bea8d7b0906418a",
+      "ownerId": "usr_demo_01",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1792748645317_sb22",
+      "timestamp": "2026-10-23T09:44:05.317Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_8a71ff11a0194905",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "accessType": "view"
+    },
+    {
+      "id": "log_1792748623614_rhwn",
+      "timestamp": "2026-10-23T09:43:43.614Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_fbf039cf642c42e8",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1792748529423_tbrp",
+      "timestamp": "2026-10-23T09:42:09.423Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_132e48851d714215",
+      "fileId": "file_7535f2efa5a543d7",
+      "ownerId": "usr_mvks5h70w46c",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1792748488843_ddl5",
+      "timestamp": "2026-10-23T09:41:28.843Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_7535f2efa5a543d7",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_mvks5h70w46c",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792733408554_tv4q",
+      "timestamp": "2026-10-23T05:30:08.554Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_standard_test_8285.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "3adbbc9d1b5c03286e2a3715b89520ef715caa2071043cdbced18b82f88fa4c9"
+    },
+    {
+      "id": "log_1792733392199_wu6n",
+      "timestamp": "2026-10-23T05:29:52.199Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_2bea8d7b0906418a",
+      "fileName": "github-recovery-codes.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792690193555_paj4",
+      "timestamp": "2026-10-22T17:29:53.555Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_c0b25043cfe048df",
+      "fileName": "admitcardsem3.pdf",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792685763916_86fp",
+      "timestamp": "2026-10-22T16:16:03.916Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_7d32fa63636949f5",
+      "fileName": "Safe_Specification_3677.md",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792685761436_vzu3",
+      "timestamp": "2026-10-22T16:16:01.436Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_standard_test_1182.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "3adbbc9d1b5c03286e2a3715b89520ef715caa2071043cdbced18b82f88fa4c9"
+    },
+    {
+      "id": "log_1792685594881_vak1",
+      "timestamp": "2026-10-22T16:13:14.881Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_standard_test.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "96b7718b7566fb9be9b9353adf8bf683fc1e29a06b6f818cde653f074d5d8c2c"
+    },
+    {
+      "id": "log_1792685573822_u09f",
+      "timestamp": "2026-10-22T16:12:53.822Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_a170fe08c1694205",
+      "fileName": "harmless_sample.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792684951144_hn3z",
+      "timestamp": "2026-10-22T16:02:31.144Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_31daeb71fd924960",
+      "fileName": "test_proxy_upload.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1792684894111_ahzc",
+      "timestamp": "2026-10-22T16:01:34.111Z",
+      "action": "VIRUS_BLOCKED",
+      "status": "INFECTED",
+      "fileName": "eicar_test.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "96b7718b7566fb9be9b9353adf8bf683fc1e29a06b6f818cde653f074d5d8c2c"
+    },
+    {
+      "id": "log_1792684886810_xi0p",
+      "timestamp": "2026-10-22T16:01:26.810Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_ba7a71a25fd64afd",
+      "fileName": "test_upload_sample.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791539875715_7wbl",
+      "timestamp": "2026-10-09T09:57:55.715Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_a887cccfdd80431d",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1791539870063_jzsp",
+      "timestamp": "2026-10-09T09:57:50.063Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_aa8b7d8f5e674b25",
+      "fileId": "file_8abdc912b3454b4d",
+      "ownerId": "usr_demo_01",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1791539798829_bcwo",
+      "timestamp": "2026-10-09T09:56:38.829Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_8abdc912b3454b4d",
+      "fileName": "Screenshot (2).png",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791539789238_qgn6",
+      "timestamp": "2026-10-09T09:56:29.238Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_17f69de2003e4924",
+      "fileName": "Enterprise_Specifications_8796.md",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791539735717_qfvo",
+      "timestamp": "2026-10-09T09:55:35.717Z",
+      "action": "VIRUS_BLOCKED",
+      "fileName": "eicar_virus_test_5282.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Virus:DOS/EICAR_Test_File.A (Industry Standard Test Vector)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "3adbbc9d1b5c03286e2a3715b89520ef715caa2071043cdbced18b82f88fa4c9"
+    },
+    {
+      "id": "log_1791532860690_d3ga",
+      "timestamp": "2026-10-09T08:01:00.690Z",
+      "action": "FILE_DELETE",
+      "fileId": "file_703b082d90f24616",
+      "fileName": "Screenshot (2).png",
+      "ownerId": "usr_demo_01"
+    },
+    {
+      "id": "log_1791532851590_4y2k",
+      "timestamp": "2026-10-09T08:00:51.590Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_703b082d90f24616",
+      "fileName": "Screenshot (2).png",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791525529804_skqp",
+      "timestamp": "2026-10-09T05:58:49.804Z",
+      "action": "FILE_DELETE",
+      "fileId": "file_284484829ee44fa3",
+      "fileName": "demo_safe_file.txt",
+      "ownerId": "usr_demo_01"
+    },
+    {
+      "id": "log_1791525522357_fkn9",
+      "timestamp": "2026-10-09T05:58:42.357Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_284484829ee44fa3",
+      "fileName": "demo_safe_file.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791525505696_4nz9",
+      "timestamp": "2026-10-09T05:58:25.696Z",
+      "action": "VIRUS_BLOCKED",
+      "fileName": "eicar_test.txt",
+      "ownerId": "usr_demo_01",
+      "threats": [
+        "Simulated.Threat.TestSampleDetected (Evaluation Mode)"
+      ],
+      "engine": "Sentinel Virus Scan API v2.4 (Heuristic + Cloud Hashes)",
+      "sha256": "d6ca96bd95299721fe70f02b075853b94bff3a9114f7721c6d360213370b4a31"
+    },
+    {
+      "id": "log_1791525430697_o5zv",
+      "timestamp": "2026-10-09T05:57:10.697Z",
+      "action": "SHARE_CREATE",
+      "shareId": "shr_sample_01",
+      "fileId": "sample_doc_01",
+      "ownerId": "usr_demo_01",
+      "accessType": "download"
+    },
+    {
+      "id": "log_1791525430696_x5bc",
+      "timestamp": "2026-10-09T05:57:10.696Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "sample_doc_02",
+      "fileName": "System_Architecture_Slides.txt",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791525430695_otfj",
+      "timestamp": "2026-10-09T05:57:10.695Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "sample_doc_01",
+      "fileName": "Mini_Project_Report.md",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    },
+    {
+      "id": "log_1791524633299_87a4",
+      "timestamp": "2026-10-09T05:43:53.299Z",
+      "action": "FILE_UPLOAD",
+      "fileId": "file_welcome_01",
+      "fileName": "Welcome_Project_Overview.md",
+      "ownerId": "usr_demo_01",
+      "status": "CLEAN"
+    }
+  ],
+  "notifications": [
+    {
+      "notificationId": "notif_1793019177765_l3uo",
+      "userId": "usr_mvp9bnz1lmtb",
+      "title": "Welcome to Secure Share!",
+      "message": "Account created for Mayank Rawat (mrawat24680@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T12:52:57.765Z"
+    },
+    {
+      "notificationId": "notif_1792991824312_mdxt",
+      "userId": "usr_mvot1duqlnid",
+      "title": "Welcome to Secure Share!",
+      "message": "Account created for Shaurya Pratap Singh (shauryap427@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T05:17:04.312Z"
+    },
+    {
+      "notificationId": "notif_1792990958616_e221",
+      "userId": "usr_demo_01",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Alex Chen (admin@secureshare.io).",
+      "type": "security",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T05:02:38.616Z"
+    },
+    {
+      "notificationId": "notif_1792990958565_uqb7",
+      "userId": "usr_mvositvkhkp0",
+      "title": "Welcome to Secure Share!",
+      "message": "Account created for Racer 1 (concurrent.racer.1792990958523@university.edu). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T05:02:38.565Z"
+    },
+    {
+      "notificationId": "notif_1792990958471_aaym",
+      "userId": "usr_mvositsm32hm",
+      "title": "Welcome to Secure Share!",
+      "message": "Account created for Alice Student (alice.student.1792990958413@university.edu). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T05:02:38.471Z"
+    },
+    {
+      "notificationId": "notif_1792990923710_3do0",
+      "userId": "usr_mvkuqaugsqf7",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com).",
+      "type": "security",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T05:02:03.710Z"
+    },
+    {
+      "notificationId": "notif_1792989827359_t4qy",
+      "userId": "usr_mvorul1xpwgl",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for rohan (rohan@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T04:43:47.359Z"
+    },
+    {
+      "notificationId": "notif_1792989652906_sgwa",
+      "userId": "usr_mvorqug2tiov",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for Atlas Realtime Test (atlas_test@example.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T04:40:52.906Z"
+    },
+    {
+      "notificationId": "notif_1792989214129_83va",
+      "userId": "usr_demo_01",
+      "title": "🔥 One-Time Link Self-Destructed",
+      "message": "\"admitcardsem3.pdf\" share link has self-destructed following recipient access.",
+      "type": "security",
+      "isRead": true,
+      "link": "/share",
+      "createdAt": "2026-10-26T04:33:34.129Z"
+    },
+    {
+      "notificationId": "notif_1792989214086_4hvd",
+      "userId": "usr_demo_01",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/a772c3beacb9",
+      "createdAt": "2026-10-26T04:33:34.086Z"
+    },
+    {
+      "notificationId": "notif_1792989030995_x0tr",
+      "userId": "usr_mvordikshsd9",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for abc (xyz@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T04:30:30.995Z"
+    },
+    {
+      "notificationId": "notif_1792988908283_a20n",
+      "userId": "usr_mvoravw6rcxu",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for aryan (aryan@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T04:28:28.283Z"
+    },
+    {
+      "notificationId": "notif_1792988752679_2iri",
+      "userId": "usr_mvoqyxqjryxt",
+      "title": "File Downloaded",
+      "message": "\"admitcardsem3.pdf\" was downloaded via share link (Edge on Windows, IP: ::1).",
+      "type": "success",
+      "isRead": false,
+      "link": "/share/9901f61b0118",
+      "createdAt": "2026-10-26T04:25:52.679Z"
+    },
+    {
+      "notificationId": "notif_1792988746486_f97r",
+      "userId": "usr_mvoqyxqjryxt",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": false,
+      "link": "/share/9901f61b0118",
+      "createdAt": "2026-10-26T04:25:46.486Z"
+    },
+    {
+      "notificationId": "notif_1792988350802_edfd",
+      "userId": "usr_mvoqyxqjryxt",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for Vansh (vansh@gmail.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-26T04:19:10.802Z"
+    },
+    {
+      "notificationId": "notif_1792988099929_88fn",
+      "userId": "usr_demo_01",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/16ccc03b4b6a",
+      "createdAt": "2026-10-26T04:14:59.929Z"
+    },
+    {
+      "notificationId": "notif_1792922835737_imcl",
+      "userId": "usr_demo_01",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Alex Chen (admin@secureshare.io).",
+      "type": "security",
+      "isRead": true,
+      "link": null,
+      "createdAt": "2026-10-25T10:07:15.737Z"
+    },
+    {
+      "notificationId": "notif_1792921435872_f7wp",
+      "userId": "usr_demo_01",
+      "title": "🔥 One-Time Link Self-Destructed",
+      "message": "\"Screenshot (2).png\" share link has self-destructed following recipient access.",
+      "type": "security",
+      "isRead": true,
+      "link": "/share",
+      "createdAt": "2026-10-25T09:43:55.872Z"
+    },
+    {
+      "notificationId": "notif_1792921435856_zcjw",
+      "userId": "usr_demo_01",
+      "title": "File Viewed",
+      "message": "\"Screenshot (2).png\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/ac53c6ebe992",
+      "createdAt": "2026-10-25T09:43:55.856Z"
+    },
+    {
+      "notificationId": "notif_1792921018197_56gb",
+      "userId": "usr_demo_01",
+      "title": "File Downloaded",
+      "message": "\"admitcardsem3.pdf\" was downloaded via share link (Browser on Unknown OS, IP: ::1).",
+      "type": "success",
+      "isRead": true,
+      "link": "/share/5d46dc1e9685",
+      "createdAt": "2026-10-25T09:36:58.197Z"
+    },
+    {
+      "notificationId": "notif_1792921017970_rob8",
+      "userId": "usr_demo_01",
+      "title": "🔥 One-Time Link Self-Destructed",
+      "message": "\"admitcardsem3.pdf\" share link has self-destructed following recipient access.",
+      "type": "security",
+      "isRead": true,
+      "link": "/share",
+      "createdAt": "2026-10-25T09:36:57.970Z"
+    },
+    {
+      "notificationId": "notif_1792921017959_kvlg",
+      "userId": "usr_demo_01",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Browser on Unknown OS, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/7be65bf59d89",
+      "createdAt": "2026-10-25T09:36:57.959Z"
+    },
+    {
+      "notificationId": "notif_1792919117434_sqph",
+      "userId": "usr_mvnlr0va33kh",
+      "title": "Duplicate Copy Added",
+      "message": "Saved duplicate copy \"duplicate_report.txt\" of existing file \"original_report.txt\".",
+      "type": "info",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T09:05:17.434Z"
+    },
+    {
+      "notificationId": "notif_1792919117353_tika",
+      "userId": "usr_mvnlr0va33kh",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for Duplicate Evaluator (dup_test_1792919117202@example.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T09:05:17.353Z"
+    },
+    {
+      "notificationId": "notif_1792918759417_b42t",
+      "userId": "usr_mvks5h70w46c",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Upasana (abc@gmail.com).",
+      "type": "security",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T08:59:19.417Z"
+    },
+    {
+      "notificationId": "notif_1792918681048_1wp7",
+      "userId": "usr_mvkuqaugsqf7",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com).",
+      "type": "security",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T08:58:01.048Z"
+    },
+    {
+      "notificationId": "notif_1792918665275_ztow",
+      "userId": "usr_mvkuqaugsqf7",
+      "title": "New Login Session",
+      "message": "Secure session authenticated for Shaurya Raghuvanshi (shauryaraghuvanshi04@gmail.com).",
+      "type": "security",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T08:57:45.275Z"
+    },
+    {
+      "notificationId": "notif_1792918501459_cty0",
+      "userId": "usr_mvkuqaugsqf7",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/7fbc6e00df82",
+      "createdAt": "2026-10-25T08:55:01.459Z"
+    },
+    {
+      "notificationId": "notif_1792918467547_21sj",
+      "userId": "usr_mvkuqaugsqf7",
+      "title": "File Viewed",
+      "message": "\"admitcardsem3.pdf\" was viewed via share link (Edge on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": true,
+      "link": "/share/b54a936eff2a",
+      "createdAt": "2026-10-25T08:54:27.547Z"
+    },
+    {
+      "notificationId": "notif_1792918125402_yycs",
+      "userId": "usr_mvnl5rdc726y",
+      "title": "File Viewed",
+      "message": "\"vault_strategy_doc.md\" was viewed via share link (Chrome on Windows, IP: ::1).",
+      "type": "info",
+      "isRead": false,
+      "link": "/share/0cff8bb99eab",
+      "createdAt": "2026-10-25T08:48:45.402Z"
+    },
+    {
+      "notificationId": "notif_1792918125363_nwwm",
+      "userId": "usr_mvnl5rdc726y",
+      "title": "Duplicate File Detected",
+      "message": "Uploaded \"vault_strategy_doc.md\" has the identical SHA-256 hash as \"vault_strategy_doc.md\".",
+      "type": "warning",
+      "isRead": false,
+      "link": null,
+      "createdAt": "2026-10-25T08:48:45.364Z"
+    },
+    {
+      "notificationId": "notif_1792918125266_fp4f",
+      "userId": "usr_mvnl5rdc726y",
+      "title": "Welcome to Vaultspace!",
+      "message": "Account created for Advanced Evaluator (advance_tester_1792918125120@example.com). Your zero-trust vault is ready.",
+      "type": "success",
+      "isRead": true,
+      "link": null,
+      "createdAt": "2026-10-25T08:48:45.266Z"
+    }
+  ]
+}

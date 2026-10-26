@@ -1,0 +1,6 @@
+System Architecture Overview:
+- Frontend: Next.js (Blackish Theme, Responsive UI)
+- Backend: Express REST API
+- Security: Malware Scanner
+- Storage: Cloudflare R2
+- Metadata: MongoDB

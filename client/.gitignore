@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Build files
+build/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Protect environment variables
+.env
+.env.*
+!.env.example

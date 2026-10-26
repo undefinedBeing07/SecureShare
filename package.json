@@ -1,0 +1,21 @@
+{
+  "name": "secureshare-enterprise",
+  "version": "1.0.0",
+  "description": "SecureShare Enterprise - Secure Cloud Storage and File Distribution Platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "start": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "nextjs",
+    "express",
+    "cloudflare-r2",
+    "mongodb",
+    "antivirus",
+    "cloud-storage"
+  ],
+  "author": "SecureShare Enterprise Systems",
+  "license": "MIT"
+}
