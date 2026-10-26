@@ -171,6 +171,8 @@ export function UploadZone({ onUploadSuccess, token, forwardedRef }: UploadZoneP
     // Prevent duplicate uploads while request is already running
     if (isProcessing) return;
 
+    const uploadEndpoint = `${API_BASE}/files/upload`;
+
     clearAllTimers();
     isDedicatedTestRef.current = isEicarTest;
     setThreatReport(null);
@@ -373,9 +375,10 @@ export function UploadZone({ onUploadSuccess, token, forwardedRef }: UploadZoneP
           // Case E: 404 Route Not Found
           if (status === 404) {
             setStage('idle');
+            console.error(`[UploadZone] 404 Not Found from endpoint: ${uploadEndpoint}`);
             setGeneralError({
-              title: 'Upload Route Not Found (HTTP 404)',
-              message: 'The /api/files/upload endpoint could not be reached. Verify that the Express server route is registered.',
+              title: 'Upload Endpoint Not Found (HTTP 404)',
+              message: `The server endpoint (${uploadEndpoint}) could not be reached. Verify that your live Render URL is correctly entered in Vercel under NEXT_PUBLIC_API_URL and BACKEND_URL.`,
               status
             });
             return;
@@ -454,7 +457,7 @@ export function UploadZone({ onUploadSuccess, token, forwardedRef }: UploadZoneP
 
       // Open request and set auth header.
       // NOTE: Do NOT set Content-Type header manually; browser sets boundary for multipart/form-data.
-      xhr.open('POST', `${API_BASE}/files/upload`, true);
+      xhr.open('POST', uploadEndpoint, true);
       xhr.setRequestHeader('Authorization', `Bearer ${token || 'usr_demo_01'}`);
       xhr.send(formData);
 
